@@ -6,6 +6,7 @@
 
 <label for="content">メッセージ</label><br />
 <input type="text" name="content" value="${message.content}" />
+<!-- この、valueのおかげで、new.jspに表示する時には入力欄は空欄になり、edit.jspではすでに値が入った状態で表示されることになる -->
 <br /><br />
 
 <input type="hidden" name="_token" value="${_token}" />
